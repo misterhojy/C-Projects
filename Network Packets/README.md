@@ -1,1 +1,3 @@
+In this assignment you will work with a fictional network protocol called WolfPack. It is based loosely on the IPv4 packet format, which you should review quickly to get a feel of what a real network packet format looks like.
 
+WolfPack network packets contain 4 fields with information about the sending and receiving computers, 4 other fields that tell the network important information and options about the communication, and a data payload. We will assume that big endian ordering is used, which is not what our target computer architecture uses (Intel, Apple M1/M2). Therefore, when reading and writing packets, we will need to convert to/from big endian and little endian.
