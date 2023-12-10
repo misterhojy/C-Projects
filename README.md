@@ -1,2 +1,2 @@
 # C-Projects
-Low Level C Projects from Course
+Low-Level C Projects from System Fundamentals I & II
